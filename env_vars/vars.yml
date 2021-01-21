@@ -1,0 +1,11 @@
+---
+# nonsensitive data
+transcript_editor_db_user: pguser
+transcript_editor_db_name: transcript_editor_production
+transcript_editor_rails_env: production
+
+# sensitive data
+transcript_editor_db_pass: "{{vault_transcript_editor_db_pass}}"
+transcript_editor_secret_key_base: "{{vault_transcript_editor_secret_key_base}}"
+aapb_recaptcha_site_key: "{{vault_aapb_recaptcha_site_key}}"
+aapb_recaptcha_secret_key: "{{vault_aapb_recaptcha_secret_key}}"
